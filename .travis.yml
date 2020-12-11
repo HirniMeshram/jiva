@@ -27,6 +27,7 @@ jobs:
         - RUN_E2E_AND_FUNCTIONAL_TESTS=0
     - os: linux
       arch: arm64-graviton2
+      dist: focal
       env:
         - RUN_FEATURE_TESTS=1
         - RUN_RESILIENCY_TESTS=0
@@ -45,6 +46,7 @@ jobs:
         - RUN_E2E_AND_FUNCTIONAL_TESTS=0
     - os: linux
       arch: arm64-graviton2
+      dist: focal
       env:
         - RUN_FEATURE_TESTS=0
         - RUN_RESILIENCY_TESTS=1
@@ -63,6 +65,7 @@ jobs:
         - RUN_E2E_AND_FUNCTIONAL_TESTS=1
     - os: linux
       arch: arm64-graviton2
+      dist: focal
       env:
         - RUN_FEATURE_TESTS=0
         - RUN_RESILIENCY_TESTS=0
